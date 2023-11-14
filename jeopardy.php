@@ -2,6 +2,9 @@
 // Start or resume the session
 session_start();
 ?>
+<?php
+$userName =$_GET["name"]
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +19,7 @@ session_start();
     <img src="jeopardy.png">
     <div class="table2">
       <tr>
-        <td><h3>Name: <?php $_GET["name"]?></h3> </td>
+        <td><h3>Name: <?= $userName?></h3> </td>
         <td><h3></h3></td>
       </tr>
       <tr>
