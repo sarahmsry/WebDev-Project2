@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Winona';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>Which number does every Major League Baseball player wear on April 15?</p>
+  <p>What Minnesota town was actor Winona Ryder born in?</p>
 
-  <p>Answer: 42</p>
+  <p>Answer: Winona</p>
 
 </body>
 </html>

@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'On their legs';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>What is the largest bone in the human body?</p>
+  <p>Where are cricket’s ears located?</p>
 
-  <p>Answer: Femur</p>
+  <p>Answer: On their legs</p>
 
 </body>
 </html>

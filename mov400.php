@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Wild Cats';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>Which blood type is a universal donor?  </p>
+  <p>What is the school’s mascot in “High School Musical”? </p>
 
-  <p>Answer: O Negative</p>
+  <p>Answer: Wild Cats</p>
 
 </body>
 </html>

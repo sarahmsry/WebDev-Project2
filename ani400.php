@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Purple';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>When was the first Indy 500 held?</p>
+  <p>What color is a giraffe’s tongue?</p>
 
-  <p>Answer: 1911</p>
+  <p>Answer: Purple</p>
 
 </body>
 </html>

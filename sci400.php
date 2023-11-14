@@ -1,3 +1,10 @@
+<?php
+
+$ans = '2,000';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>What was America’s first national park? </p>
+  <p>How many pounds are in a ton?</p>
 
-  <p>Answer: Yellowstone National Park</p>
+  <p>Answer: 2,000</p>
 
 </body>
 </html>

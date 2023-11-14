@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Turtle';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>How many floors does the Eiffel Tower have?  </p>
+  <p>What animal breathes through its butt? </p>
 
-  <p>Answer: Three</p>
+  <p>Answer: Turtle</p>
 
 </body>
 </html>

@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Three';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>How many pounds are in a ton?</p>
+  <p>How many floors does the Eiffel Tower have?  </p>
 
-  <p>Answer: 2,000</p>
+  <p>Answer: Three</p>
 
 </body>
 </html>

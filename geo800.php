@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Verona';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>What color is a giraffe’s tongue?</p>
+  <p>Which Italian town is the setting for Shakespeare’s Romeo and Juliet?</p>
 
-  <p>Answer: Purple</p>
+  <p>Answer: Verona</p>
 
 </body>
 </html>

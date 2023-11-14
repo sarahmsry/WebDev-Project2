@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Femur';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>What U.S. state grows coffee beans?  </p>
+  <p>What is the largest bone in the human body?</p>
 
-  <p>Answer: Hawaii</p>
+  <p>Answer: Femur</p>
 
 </body>
 </html>

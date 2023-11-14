@@ -1,3 +1,10 @@
+<?php
+
+$ans = '42';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>Who was the highest-paid athlete in 2022?</p>
+  <p>Which number does every Major League Baseball player wear on April 15?</p>
 
-  <p>Answer: Lionel Messi</p>
+  <p>Answer: 42</p>
 
 </body>
 </html>

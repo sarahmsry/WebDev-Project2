@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Hawaii';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>Where are cricket’s ears located?</p>
+  <p>What U.S. state grows coffee beans?  </p>
 
-  <p>Answer: On their legs</p>
+  <p>Answer: Hawaii</p>
 
 </body>
 </html>

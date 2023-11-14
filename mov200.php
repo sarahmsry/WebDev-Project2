@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'India';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>What Minnesota town was actor Winona Ryder born in?</p>
+  <p>What country does “The Jungle Book” take place in?</p>
 
-  <p>Answer: Winona</p>
+  <p>Answer: India</p>
 
 </body>
 </html>

@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Sydney, Australia';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>What is the school’s mascot in “High School Musical”? </p>
+  <p>Where did the 2000 Summer Olympics take place?</p>
 
-  <p>Answer: Wild Cats</p>
+  <p>Answer: Sydney, Australia</p>
 
 </body>
 </html>

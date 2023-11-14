@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Lionel Messi';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>Which globally-dreaded disease did the World Health Organization declared eradicated in 1980?</p>
+  <p>Who was the highest-paid athlete in 2022?</p>
 
-  <p>Answer: Smallpox</p>
+  <p>Answer: Lionel Messi</p>
 
 </body>
 </html>

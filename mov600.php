@@ -1,3 +1,10 @@
+<?php
+
+$ans = '1993';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>What country does “The Jungle Book” take place in?</p>
+  <p>What year was the original “Jurassic Park” released?</p>
 
-  <p>Answer: India</p>
+  <p>Answer: 1993</p>
 
 </body>
 </html>

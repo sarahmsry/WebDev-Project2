@@ -1,3 +1,10 @@
+<?php
+
+$ans = 'Clown Fish';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>

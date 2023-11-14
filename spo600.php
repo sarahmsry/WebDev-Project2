@@ -1,3 +1,10 @@
+<?php
+
+$ans = '1911';
+
+?>
+
+<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -16,9 +23,9 @@
 
 <body>
 
-  <p>Where did the 2000 Summer Olympics take place?</p>
+  <p>When was the first Indy 500 held?</p>
 
-  <p>Answer: Sydney, Australia</p>
+  <p>Answer: 1911</p>
 
 </body>
 </html>
