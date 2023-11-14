@@ -7,17 +7,8 @@ $ans = 'Three';
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+<link rel="stylesheet" type="text/css" href="jeopardy.css" />
 
-  body{
-  background-color: #4CAF50;
-  }
-  p{
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-  }
-
-  </style>
 
 </head>
 
@@ -25,7 +16,7 @@ $ans = 'Three';
 
   <p>How many floors does the Eiffel Tower have?  </p>
 
-  <p>Answer: Three</p>
+  <!--<p>Answer: Three</p>-->
 
 </body>
 </html>

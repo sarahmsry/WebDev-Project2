@@ -7,17 +7,8 @@ $ans = 'Winona';
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+<link rel="stylesheet" type="text/css" href="jeopardy.css" />
 
-  body{
-  background-color: #4CAF50;
-  }
-  p{
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-  }
-
-  </style>
 
 </head>
 
@@ -25,7 +16,7 @@ $ans = 'Winona';
 
   <p>What Minnesota town was actor Winona Ryder born in?</p>
 
-  <p>Answer: Winona</p>
+  <!--<p>Answer: Winona</p>-->
 
 </body>
 </html>

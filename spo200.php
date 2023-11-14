@@ -7,17 +7,8 @@ $ans = 'Sydney, Australia';
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+<link rel="stylesheet" type="text/css" href="jeopardy.css" />
 
-  body{
-  background-color: #4CAF50;
-  }
-  p{
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-  }
-
-  </style>
 
 </head>
 
@@ -25,7 +16,7 @@ $ans = 'Sydney, Australia';
 
   <p>Where did the 2000 Summer Olympics take place?</p>
 
-  <p>Answer: Sydney, Australia</p>
+  <!--<p>Answer: Sydney, Australia</p>-->
 
 </body>
 </html>

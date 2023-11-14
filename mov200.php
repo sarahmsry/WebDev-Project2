@@ -7,17 +7,8 @@ $ans = 'India';
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+<link rel="stylesheet" type="text/css" href="jeopardy.css" />
 
-  body{
-  background-color: #4CAF50;
-  }
-  p{
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-  }
-
-  </style>
 
 </head>
 
@@ -25,7 +16,7 @@ $ans = 'India';
 
   <p>What country does “The Jungle Book” take place in?</p>
 
-  <p>Answer: India</p>
+  <!--<p>Answer: India</p>-->
 
 </body>
 </html>

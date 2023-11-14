@@ -7,17 +7,8 @@ $ans = 'Turtle';
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+<link rel="stylesheet" type="text/css" href="jeopardy.css" />
 
-  body{
-  background-color: #4CAF50;
-  }
-  p{
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-  }
-
-  </style>
 
 </head>
 
@@ -25,7 +16,7 @@ $ans = 'Turtle';
 
   <p>What animal breathes through its butt? </p>
 
-  <p>Answer: Turtle</p>
+  <!--<p>Answer: Turtle</p>-->
 
 </body>
 </html>

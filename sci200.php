@@ -7,17 +7,8 @@ $ans = '0 Negative';
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+<link rel="stylesheet" type="text/css" href="jeopardy.css" />
 
-  body{
-  background-color: #4CAF50;
-  }
-  p{
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-  }
-
-  </style>
 
 </head>
 
@@ -25,7 +16,7 @@ $ans = '0 Negative';
 
   <p>Which blood type is a universal donor?  </p>
 
-  <p>Answer: O Negative</p>
+  <!--<p>Answer: O Negative</p>-->
 
 </body>
 </html>

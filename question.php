@@ -35,6 +35,8 @@ if (file_exists($questionFile)) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jeopardy Question</title>
   <!-- Add your CSS styles here -->
+  <link rel="stylesheet" type="text/css" href="question.css" />
+
 </head>
 <body>
   <!-- Add your question content here -->

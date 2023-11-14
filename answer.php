@@ -21,6 +21,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
   
 }
+?>
+<div class="leaderboard">
+  <?php
 
 // Example: Display the temporary leaderboard
 echo "<h1>Temporary Leaderboard</h1>";
@@ -28,6 +31,8 @@ echo "<p>User Score: " . ($_SESSION['user_score'] ?? 0) . "</p>";
 
 // Add your answer submission form here
 ?>
+</div>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +40,8 @@ echo "<p>User Score: " . ($_SESSION['user_score'] ?? 0) . "</p>";
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jeopardy Answer</title>
   <!-- Add your CSS styles here -->
+  <link rel="stylesheet" type="text/css" href="jeopardy.css" />
+
 </head>
 <body>
   <h1>Jeopardy Answer Submission</h1>
@@ -44,8 +51,15 @@ echo "<p>User Score: " . ($_SESSION['user_score'] ?? 0) . "</p>";
   <!-- Add your answer submission form here -->
   <form method="post">
     <label for="user_answer">Your Answer:</label>
-    <input type="text" id="user_answer" name="user_answer" required>
+    <div class="myDiv">
+      <p>
+      <input type="text" id="user_answer" name="user_answer" required>
+
+      </p>
     <button type="submit" onclick="window.location.href='jeopardy.php'">Submit Answer</button>
+    </div>
+    
+    
   </form>
 </body>
 </html>

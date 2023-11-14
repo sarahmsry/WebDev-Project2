@@ -7,67 +7,76 @@ session_start();
 <html lang="en">
 <head>
     <title>Jeopardy Grid</title>
-	<style>
-    body {
-      font-family: 'Arial', sans-serif;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      max-width: 1000px; /* Set a maximum width for the grid */
-      margin: 0 auto; /* Center the grid on the page */
-    }
+		<link rel="stylesheet" type="text/css" href="jeopardy.css" />
 
-    .jeopardy-button {
-      width: 150px;
-      height: 100px;
-      margin: 10px;
-      border: 2px solid #000;
-      background-color: #4CAF50;
-      color: #fff;
-      font-size: 18px;
-      font-weight: bold;
-      text-align: center;
-      line-height: 100px;
-      text-decoration: none;
-      display: inline-block;
-      cursor: pointer;
-    }
-
-    .jeopardy-button:hover {
-      background-color: #45a049;
-    }
   </style>
 </head>
 <body>
-  <!-- Create a 5x5 grid of buttons for Jeopardy -->
-  <a href="" class="jeopardy-button">Geography</a>
-  <a href="#" class="jeopardy-button">Science</a>
-  <a href="#" class="jeopardy-button">Movies</a>
-  <a href="#" class="jeopardy-button">Animals</a>
-  <a href="#" class="jeopardy-button">Sports</a>
+  <header>
+    <img src="jeopardy.png">
+    <div class="table2">
+      <tr>
+        <td><h3>Name: <?php $_GET["name"]?></h3> </td>
+        <td><h3></h3></td>
+      </tr>
+      <tr>
+        <td><h3>Score: <?= ($_SESSION['user_score'] ?? 0)?></h3></td>
+        <td><h3></h3></td>
+      </tr>
+    </div>
+  </header>
   
-  <a href="question.php?category=0&value=200" class="jeopardy-button">$200</a>
-  <a href="question.php?category=1&value=200" class="jeopardy-button">$200</a>
-  <a href="question.php?category=2&value=200" class="jeopardy-button">$200</a>
-  <a href="question.php?category=3&value=200" class="jeopardy-button">$200</a>
-  <a href="question.php?category=4&value=200" class="jeopardy-button">$200</a>
-
-  <a href="question.php?category=0&value=400" class="jeopardy-button">$400</a>
-  <a href="question.php?category=1&value=400" class="jeopardy-button">$400</a>
-  <a href="question.php?category=2&value=400" class="jeopardy-button">$400</a>
-  <a href="question.php?category=3&value=400" class="jeopardy-button">$400</a>
-  <a href="question.php?category=4&value=400" class="jeopardy-button">$400</a>
-
-  <a href="question.php?category=0&value=600" class="jeopardy-button">$600</a>
-  <a href="question.php?category=1&value=600" class="jeopardy-button">$600</a>
-  <a href="question.php?category=2&value=600" class="jeopardy-button">$600</a>
-  <a href="question.php?category=3&value=600" class="jeopardy-button">$600</a>
-  <a href="question.php?category=4&value=600" class="jeopardy-button">$600</a>
+  <br>
   
-  <a href="question.php?category=0&value=800" class="jeopardy-button">$800</a>
-  <a href="question.php?category=1&value=800" class="jeopardy-button">$800</a>
-  <a href="question.php?category=2&value=800" class="jeopardy-button">$800</a>
-  <a href="question.php?category=3&value=800" class="jeopardy-button">$800</a>
-  <a href="question.php?category=4&value=800" class="jeopardy-button">$800</a>
+
+<table>
+  <!-- Create a 5x5 grid of buttons for Jeopardy --> 
+  <tr>
+      <div class="category">
+        <td><a href="" class="jeopardy-button">Geography</a></td>
+        <td><a href="#" class="jeopardy-button">Science</a></td>
+        <td><a href="#" class="jeopardy-button">Movies</a></td>
+        <td><a href="#" class="jeopardy-button">Animals</a></td>
+        <td><a href="#" class="jeopardy-button">Sports</a></td>
+      </div>
+    </tr>
+
+    <tr>
+      <td><a href="question.php?category=0&value=200" class="jeopardy-button">$200</a></td>
+      <td><a href="question.php?category=1&value=200" class="jeopardy-button">$200</a></td>
+      <td><a href="question.php?category=2&value=200" class="jeopardy-button">$200</a></td>
+      <td><a href="question.php?category=3&value=200" class="jeopardy-button">$200</a></td>
+      <td><a href="question.php?category=4&value=200" class="jeopardy-button">$200</a></td>
+    </tr>
+
+    <tr>
+      <td><a href="question.php?category=0&value=400" class="jeopardy-button">$400</a></td>
+      <td><a href="question.php?category=1&value=400" class="jeopardy-button">$400</a></td>
+      <td><a href="question.php?category=2&value=400" class="jeopardy-button">$400</a></td>
+      <td><a href="question.php?category=3&value=400" class="jeopardy-button">$400</a></td>
+      <td><a href="question.php?category=4&value=400" class="jeopardy-button">$400</a></td>
+    </tr>
+
+    <tr>
+      <td><a href="question.php?category=0&value=600" class="jeopardy-button">$600</a></td>
+      <td><a href="question.php?category=1&value=600" class="jeopardy-button">$600</a></td>
+      <td><a href="question.php?category=2&value=600" class="jeopardy-button">$600</a></td>
+      <td><a href="question.php?category=3&value=600" class="jeopardy-button">$600</a></td>
+      <td><a href="question.php?category=4&value=600" class="jeopardy-button">$600</a></td>
+    </tr>
+
+    <tr>
+      <td><a href="question.php?category=0&value=800" class="jeopardy-button">$800</a></td>
+      <td><a href="question.php?category=1&value=800" class="jeopardy-button">$800</a></td>
+      <td><a href="question.php?category=2&value=800" class="jeopardy-button">$800</a></td>
+      <td><a href="question.php?category=3&value=800" class="jeopardy-button">$800</a></td>
+      <td><a href="question.php?category=4&value=800" class="jeopardy-button">$800</a></td>
+    </tr>
+  </table>
+
+
+
+
+  
 </body>
 </html>
