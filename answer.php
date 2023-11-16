@@ -50,14 +50,11 @@ echo "<p>User Score: " . ($_SESSION['user_score'] ?? 0) . "</p>";
 
   <!-- Add your answer submission form here -->
   <form method="post">
-    <label for="user_answer">Your Answer:</label>
-    <div class="myDiv">
+    <label for="user_answer">Your Answer: </label><br><br>
       <p>
       <input type="text" id="user_answer" name="user_answer" required>
-
-      </p>
+      </p><br>
     <button type="submit" onclick="window.location.href='jeopardy.php'">Submit Answer</button>
-    </div>
     
     
   </form>

@@ -1,3 +1,14 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    
+    $_SESSION['user_score'] = 0;
+    $_SESSION['user_name'] = NULL;
+    
+  }
+  if (isset($_SESSION['user_score'])) {
+    $_SESSION['user_score'] = 0;
+}
+?>
 <html>
     <head>
         <title>Jeopardy</title>
@@ -8,12 +19,16 @@
     <body>
 
     <img src="jeopardy.gif" alt="icon" id="logo"/>
-    <a href="signup.php">
+    <h3>
+        <a href="signup.php">
         Sign up to play
-    </a>
+        </a>
+    </h3>
+    <h3>
     <a href="login.php">
         Log in to last session
     </a>
+    </h3>
 
     <!--
         <h1>Welcome!</h1>

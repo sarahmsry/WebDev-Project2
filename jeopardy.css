@@ -74,12 +74,19 @@ table{
   a:link{
     text-decoration: none;
   }
+  a:visited{
+    color: rgb(59, 59, 85);
+  }
+  h3 a:visited{
+    color: rgb(255, 255, 255);
+  }
   a:hover{
     color: rgb(255, 255, 255);
     animation-name: test;
     animation-iteration-count: 50;
-    animation-duration: 5s;
+    animation-duration: 3s;
   }
+  
   @keyframes test {
     0%  {color: rgb(255, 255, 255);}
     100%  {color: rgb(255, 183, 0);}
@@ -87,16 +94,20 @@ table{
 header{
   width: 100%;
 }
-
-  .category-button{
-    color: white;
-    font-size: 25px;
-  }
+form{
+  justify-content: center;
+    align-items: center;
+    display: flex;
+    float: center;
+}
   
   .jeopardy-button{
     color: goldenrod;
     font-size: 40px;
-
+  }
+  .jeopardy-category{
+    color: white;
+    font-size: 40px;
   }
  
   .question p{
@@ -139,7 +150,11 @@ header{
     width: 100%;
   }
   .myDiv{
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float: center;
+    width: 100%;
   }
   #logo{
     display: block;
