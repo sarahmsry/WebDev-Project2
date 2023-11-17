@@ -81,8 +81,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <td><a href="question.php?category=4&value=800" class="jeopardy-button" tabindex="1">$800</a></td>
     </tr>
   </table>
-
-
+  <br>
+  <form action="endgame.php" method="$_POST">
+  <input type="submit" value="End Game">
 
 
   
