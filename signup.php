@@ -17,8 +17,8 @@ session_start();
             <h3 class="column">Name:</h3>
             <input type="text" name="user_name" size="17" maxlength="16"><br><br>
             <?php
-                if (!isset($_SESSION['user_name'])) {
-                    $_SESSION['user_name'] = ($_POST('user_name'));
+                if (!isset($_SESSION['user_name']) && isset($_POST['user_name'])) {
+                    $_SESSION['user_name'] = ($_POST['user_name']);
                 }
             ?>
             <input type="submit" value="Sign Up">
